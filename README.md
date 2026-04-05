@@ -1,44 +1,36 @@
-# 📊 Netflix Data Analysis using Pandas & NumPy
+#  Netflix Data Analysis using Pandas & NumPy
 
 End-to-end data analysis project on Netflix's content library —
 uncovering trends, patterns, and insights from 8,800+ titles
 using Python data science libraries.
 
----
-
-## 🎯 Objective
+##  Objective
 
 Perform complete data analysis on the Netflix dataset including
 data cleaning, transformation, visualization, and insight
 extraction to support content strategy decisions.
 
----
+##  Key Insights Discovered
 
-## 💡 Key Insights Discovered
+-  **69%** of Netflix content is Movies, **31%** is TV Shows
+-  **USA** is the top content-producing country by far
+-  Netflix added the **most content in 2019**
+-  **International Movies** is the most common genre
+-  Average movie duration is **~99 minutes**
+-  **TV-MA** is the most common content rating
 
-- 🎬 **69%** of Netflix content is Movies, **31%** is TV Shows
-- 🇺🇸 **USA** is the top content-producing country by far
-- 📅 Netflix added the **most content in 2019**
-- 🎭 **International Movies** is the most common genre
-- ⏱️ Average movie duration is **~99 minutes**
-- ⭐ **TV-MA** is the most common content rating
+##  Tech Stack
 
----
+| Tool              | Purpose                                |
+|-------------------|----------------------------------------|
+| Python            | Core language                          |
+| Pandas            | Data loading, cleaning, transformation |
+| NumPy             | Numerical operations                   |
+| Matplotlib        | Charts and visualizations              |
+| Seaborn           | Statistical visualizations             |
+| Google Colab      | Development environment                |
 
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|---|---|
-| Python | Core language |
-| Pandas | Data loading, cleaning, transformation |
-| NumPy | Numerical operations |
-| Matplotlib | Charts and visualizations |
-| Seaborn | Statistical visualizations |
-| Google Colab | Development environment |
-
----
-
-## 📁 Dataset
+##  Dataset
 
 [Netflix Movies and TV Shows — Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
@@ -46,9 +38,7 @@ extraction to support content strategy decisions.
 - 12 features
 - Covers 2008–2021
 
----
-
-## 🔄 Project Workflow
+##  Project Workflow
 
 Raw Data (CSV)
 ↓
@@ -66,9 +56,7 @@ Key Insights Extracted
 ↓
 Summary Report Exported (CSV)
 
----
-
-## 📷 Visualizations
+##  Visualizations
 
 ### Movies vs TV Shows
 ![Movies vs Shows](movies_vs_shows.png)
@@ -91,22 +79,18 @@ Summary Report Exported (CSV)
 ### Top 10 Directors
 ![Directors](top_directors.png)
 
----
+##  Key Metrics
 
-## 📊 Key Metrics
+| Metric                | Value         |
+|-----------------------|---------------|
+| Total Titles Analysed | 8,800+        |
+| Countries Represented | 100+          |
+| Unique Genres         | 42            |
+| Avg Movie Duration    | ~99 mins      |
+| Most Productive Year  | 2019          |
+| Top Country           | United States |
 
-| Metric | Value |
-|---|---|
-| Total Titles Analysed | 8,800+ |
-| Countries Represented | 100+ |
-| Unique Genres | 42 |
-| Avg Movie Duration | ~99 mins |
-| Most Productive Year | 2019 |
-| Top Country | United States |
-
----
-
-## 🚀 How to Run
+##  How to Run
 
 1. Open notebook in Google Colab
 2. Download dataset from Kaggle
@@ -114,26 +98,20 @@ Summary Report Exported (CSV)
 4. Run all cells top to bottom
 5. All charts auto-save as PNG files
 
-📓 [Open in Google Colab](YOUR_COLAB_LINK_HERE)
+📓 [Open in Google Colab](https://colab.research.google.com/drive/15Dqu9_XjFlWFdaU2MdbofF82FH_eBbTE?usp=sharing)
 
----
-
-## 📌 Future Improvements
+##  Future Improvements
 
 - [ ] Build an interactive dashboard using Plotly
 - [ ] Add time series forecasting for content trends
 - [ ] Compare Netflix vs other streaming platforms
 - [ ] Sentiment analysis on descriptions
 
----
+##  Author
 
-## 👤 Author
+**Jamalpur Varshika Narayan**
+📧 varshikanarayan@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/varshikanarayan)
+🐙 [GitHub](https://github.com/VarshikaAI)
 
-**Your Name**
-📧 your.email@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-🐙 [GitHub](https://github.com/yourusername)
-
----
-
-## ⭐ If you found this useful, give it a star!
+##  If you found this useful, give it a star!
